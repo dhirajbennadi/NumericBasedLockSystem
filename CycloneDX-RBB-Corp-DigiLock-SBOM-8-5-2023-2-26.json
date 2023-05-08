@@ -1,0 +1,178 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:a841d8e4-ad5b-7003-e50b-98879a1b1f60",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-05-08T14:04:52Z",
+    "authors": [
+      {
+        "name": "RBB Corp"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "931b6362-055d-c20e-f182-1b8a46500caa",
+      "name": "DigiLock",
+      "purl": "pkg:supplier/RBB%20Corp/DigiLock@",
+      "supplier": {
+        "name": "RBB Corp"
+      },
+      "version": ""
+    },
+    "manufacture": {
+      "name": "RBB Corp"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "be2df29c-cda8-5334-b498-0216ebcb742c",
+      "name": "Lock Module",
+      "purl": "pkg:supplier/RBB%20Corp/Lock%20Module@1.0",
+      "publisher": "RBB Corp",
+      "version": "1.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "2b088bd4-7fc8-8e0d-f699-133094d748de",
+      "name": "User Application",
+      "purl": "pkg:supplier/RBB%20Corp/User%20Application@1.0",
+      "publisher": "RBB Corp",
+      "version": "1.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "68d417d9-d8c4-a426-3f18-fc790761cd67",
+      "name": "Python",
+      "purl": "pkg:supplier/Python%20Software%20Foundation%20/Python@3.10.0",
+      "publisher": "Python Software Foundation ",
+      "version": "3.10.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "5c98c715-c440-f692-85d8-756a800c4080",
+      "name": "Serial",
+      "purl": "pkg:supplier/PySerial/Serial@3.5",
+      "publisher": "PySerial",
+      "version": "3.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "a6f8a6ac-c8d3-5dc3-46d3-21ac32757954",
+      "name": "Time",
+      "purl": "pkg:supplier/Python/Time@3.10.0",
+      "publisher": "Python",
+      "version": "3.10.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "72f6be2b-87ef-39c3-547b-b67445b798a2",
+      "name": "Datetime",
+      "purl": "pkg:supplier/Python/Datetime@3.10.0",
+      "publisher": "Python",
+      "version": "3.10.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "d8275a74-2aff-7ffc-00be-a6138db2a26f",
+      "name": "Random",
+      "purl": "pkg:supplier/Python/Random@3.10.0",
+      "publisher": "Python",
+      "version": "3.10.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "9d92d276-b747-4fee-8caa-1e7077ba6820",
+      "name": "Threading",
+      "purl": "pkg:supplier/Python/Threading@3.10.0",
+      "publisher": "Python",
+      "version": "3.10.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd",
+      "name": "Tkinter",
+      "purl": "pkg:supplier/Python/Tkinter@8.6",
+      "publisher": "Python",
+      "version": "8.6"
+    },
+    {
+      "type": "library",
+      "bom-ref": "7e164a2d-ca11-e7b6-714e-d46f76852f5f",
+      "name": "XBee",
+      "purl": "pkg:supplier/Digi%20International/XBee@1.0.1",
+      "publisher": "Digi International",
+      "version": "1.0.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "533999ec-e561-3712-3514-372fd06a52fb",
+      "name": "XBee 3 Module - PCB Antenna",
+      "purl": "pkg:supplier/Digi%20International/XBee%203%20Module%20-%20PCB%20Antenna@1.0",
+      "publisher": "Digi International",
+      "version": "1.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864",
+      "name": "FTDI Driver",
+      "purl": "pkg:supplier/FTDI/FTDI%20Driver@2.4.4",
+      "publisher": "FTDI",
+      "version": "2.4.4"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d",
+      "dependsOn": [
+        "be2df29c-cda8-5334-b498-0216ebcb742c",
+        "2b088bd4-7fc8-8e0d-f699-133094d748de"
+      ]
+    },
+    {
+      "ref": "83c72748-1475-26c5-97fa-2208c1266ebb",
+      "dependsOn": [
+        "be2df29c-cda8-5334-b498-0216ebcb742c",
+        "2b088bd4-7fc8-8e0d-f699-133094d748de",
+        "68d417d9-d8c4-a426-3f18-fc790761cd67",
+        "7e164a2d-ca11-e7b6-714e-d46f76852f5f",
+        "533999ec-e561-3712-3514-372fd06a52fb",
+        "8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864"
+      ]
+    },
+    {
+      "ref": "68d417d9-d8c4-a426-3f18-fc790761cd67",
+      "dependsOn": [
+        "5c98c715-c440-f692-85d8-756a800c4080",
+        "a6f8a6ac-c8d3-5dc3-46d3-21ac32757954",
+        "72f6be2b-87ef-39c3-547b-b67445b798a2",
+        "d8275a74-2aff-7ffc-00be-a6138db2a26f",
+        "9d92d276-b747-4fee-8caa-1e7077ba6820",
+        "5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd"
+      ]
+    },
+    {
+      "ref": "931b6362-055d-c20e-f182-1b8a46500caa",
+      "dependsOn": [
+        "be2df29c-cda8-5334-b498-0216ebcb742c",
+        "2b088bd4-7fc8-8e0d-f699-133094d748de",
+        "68d417d9-d8c4-a426-3f18-fc790761cd67",
+        "7e164a2d-ca11-e7b6-714e-d46f76852f5f",
+        "533999ec-e561-3712-3514-372fd06a52fb",
+        "8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864"
+      ]
+    },
+    {
+      "ref": "68d417d9-d8c4-a426-3f18-fc790761cd67",
+      "dependsOn": [
+        "5c98c715-c440-f692-85d8-756a800c4080",
+        "a6f8a6ac-c8d3-5dc3-46d3-21ac32757954",
+        "72f6be2b-87ef-39c3-547b-b67445b798a2",
+        "d8275a74-2aff-7ffc-00be-a6138db2a26f",
+        "9d92d276-b747-4fee-8caa-1e7077ba6820",
+        "5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+	<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
+			  xmlns:xsi="htttp://www.w3.org/2001/XMLSchema-instance"
+			  name="DigiLock"
+			  tagId="RBB%20Corp-DigiLock-"
+			  version="">
+	  <Entity name="RBB Corp" role="softwareCreator"/>
+	  <Meta generator="SwiftBOM SBOM Generator v1.3" /> 
+      	<Link  rel="component" href="swid: RBB%20Corp-Lock%20Module-1.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: RBB%20Corp-User%20Application-1.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python%20Software%20Foundation%20-Python-3.10.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: PySerial-Serial-3.5"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python-Time-3.10.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python-Datetime-3.10.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python-Random-3.10.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python-Threading-3.10.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: Python-Tkinter-8.6"
+	       use="required" />
+      	<Link  rel="component" href="swid: Digi%20International-XBee-1.0.1"
+	       use="required" />
+      	<Link  rel="component" href="swid: Digi%20International-XBee%203%20Module%20-%20PCB%20Antenna-1.0"
+	       use="required" />
+      	<Link  rel="component" href="swid: FTDI-FTDI%20Driver-2.4.4"
+	       use="required" />
+      
+</SoftwareIdentity>

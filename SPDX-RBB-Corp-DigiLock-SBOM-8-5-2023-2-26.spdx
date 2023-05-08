@@ -1,0 +1,204 @@
+## Document Header
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: RBB Corp DigiLock SBOM
+DocumentNamespace: http://www.rbb_corp.com
+Creator: Organization: RBB Corp
+Created: 2023-05-08T14:04:52Z
+CreatorComment: <text>RBB Corp DigiLock SBOM</text>
+## Packages
+## 2.4 Primary Component (described by the SBOM)
+PackageName: DigiLock
+SPDXID: SPDXRef-931b6362-055d-c20e-f182-1b8a46500caa
+PackageComment: <text>PURL is pkg:supplier/RBB%20Corp/DigiLock@  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/RBB%20Corp/DigiLock@
+PackageVersion: 
+PackageSupplier: Organization: RBB Corp
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-931b6362-055d-c20e-f182-1b8a46500caa
+Relationship: SPDXRef-931b6362-055d-c20e-f182-1b8a46500caa CONTAINS NONE
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Lock Module
+SPDXID: SPDXRef-be2df29c-cda8-5334-b498-0216ebcb742c
+PackageComment:  <text>PURL is pkg:supplier/RBB%20Corp/Lock%20Module@1.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/RBB%20Corp/Lock%20Module@1.0	
+PackageVersion: 1.0
+PackageSupplier: Organization: RBB Corp
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-be2df29c-cda8-5334-b498-0216ebcb742c
+Relationship: SPDXRef-be2df29c-cda8-5334-b498-0216ebcb742c CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: User Application
+SPDXID: SPDXRef-2b088bd4-7fc8-8e0d-f699-133094d748de
+PackageComment:  <text>PURL is pkg:supplier/RBB%20Corp/User%20Application@1.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/RBB%20Corp/User%20Application@1.0	
+PackageVersion: 1.0
+PackageSupplier: Organization: RBB Corp
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-2b088bd4-7fc8-8e0d-f699-133094d748de
+Relationship: SPDXRef-2b088bd4-7fc8-8e0d-f699-133094d748de CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Python
+SPDXID: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67
+PackageComment:  <text>PURL is pkg:supplier/Python%20Software%20Foundation%20/Python@3.10.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python%20Software%20Foundation%20/Python@3.10.0	
+PackageVersion: 3.10.0
+PackageSupplier: Organization: Python Software Foundation 
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Serial
+SPDXID: SPDXRef-5c98c715-c440-f692-85d8-756a800c4080
+PackageComment:  <text>PURL is pkg:supplier/PySerial/Serial@3.5  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/PySerial/Serial@3.5	
+PackageVersion: 3.5
+PackageSupplier: Organization: PySerial
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-5c98c715-c440-f692-85d8-756a800c4080
+Relationship: SPDXRef-5c98c715-c440-f692-85d8-756a800c4080 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Time
+SPDXID: SPDXRef-a6f8a6ac-c8d3-5dc3-46d3-21ac32757954
+PackageComment:  <text>PURL is pkg:supplier/Python/Time@3.10.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python/Time@3.10.0	
+PackageVersion: 3.10.0
+PackageSupplier: Organization: Python
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-a6f8a6ac-c8d3-5dc3-46d3-21ac32757954
+Relationship: SPDXRef-a6f8a6ac-c8d3-5dc3-46d3-21ac32757954 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Datetime
+SPDXID: SPDXRef-72f6be2b-87ef-39c3-547b-b67445b798a2
+PackageComment:  <text>PURL is pkg:supplier/Python/Datetime@3.10.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python/Datetime@3.10.0	
+PackageVersion: 3.10.0
+PackageSupplier: Organization: Python
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-72f6be2b-87ef-39c3-547b-b67445b798a2
+Relationship: SPDXRef-72f6be2b-87ef-39c3-547b-b67445b798a2 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Random
+SPDXID: SPDXRef-d8275a74-2aff-7ffc-00be-a6138db2a26f
+PackageComment:  <text>PURL is pkg:supplier/Python/Random@3.10.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python/Random@3.10.0	
+PackageVersion: 3.10.0
+PackageSupplier: Organization: Python
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-d8275a74-2aff-7ffc-00be-a6138db2a26f
+Relationship: SPDXRef-d8275a74-2aff-7ffc-00be-a6138db2a26f CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Threading
+SPDXID: SPDXRef-9d92d276-b747-4fee-8caa-1e7077ba6820
+PackageComment:  <text>PURL is pkg:supplier/Python/Threading@3.10.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python/Threading@3.10.0	
+PackageVersion: 3.10.0
+PackageSupplier: Organization: Python
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-9d92d276-b747-4fee-8caa-1e7077ba6820
+Relationship: SPDXRef-9d92d276-b747-4fee-8caa-1e7077ba6820 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Tkinter
+SPDXID: SPDXRef-5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd
+PackageComment:  <text>PURL is pkg:supplier/Python/Tkinter@8.6  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Python/Tkinter@8.6	
+PackageVersion: 8.6
+PackageSupplier: Organization: Python
+Relationship: SPDXRef-68d417d9-d8c4-a426-3f18-fc790761cd67 CONTAINS SPDXRef-5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd
+Relationship: SPDXRef-5ecd0198-dbb4-fc7b-f00a-c1217f9aa1fd CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: XBee
+SPDXID: SPDXRef-7e164a2d-ca11-e7b6-714e-d46f76852f5f
+PackageComment:  <text>PURL is pkg:supplier/Digi%20International/XBee@1.0.1  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Digi%20International/XBee@1.0.1	
+PackageVersion: 1.0.1
+PackageSupplier: Organization: Digi International
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-7e164a2d-ca11-e7b6-714e-d46f76852f5f
+Relationship: SPDXRef-7e164a2d-ca11-e7b6-714e-d46f76852f5f CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: XBee 3 Module - PCB Antenna
+SPDXID: SPDXRef-533999ec-e561-3712-3514-372fd06a52fb
+PackageComment:  <text>PURL is pkg:supplier/Digi%20International/XBee%203%20Module%20-%20PCB%20Antenna@1.0  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Digi%20International/XBee%203%20Module%20-%20PCB%20Antenna@1.0	
+PackageVersion: 1.0
+PackageSupplier: Organization: Digi International
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-533999ec-e561-3712-3514-372fd06a52fb
+Relationship: SPDXRef-533999ec-e561-3712-3514-372fd06a52fb CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: FTDI Driver
+SPDXID: SPDXRef-8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864
+PackageComment:  <text>PURL is pkg:supplier/FTDI/FTDI%20Driver@2.4.4  </text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/FTDI/FTDI%20Driver@2.4.4	
+PackageVersion: 2.4.4
+PackageSupplier: Organization: FTDI
+Relationship: SPDXRef-c50765c9-0a5b-7dd2-f761-57a6b3ba2b6d CONTAINS SPDXRef-8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864
+Relationship: SPDXRef-8c9ecf1d-9f1b-f4d3-fa1c-e3a375dad864 CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
